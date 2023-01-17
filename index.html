@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!---------------------------Fonts used in this App------------------------------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----------------------------JS text.js extension ---------------------------------------------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--------------------------------Style Files ------------------------------------------>
+    <link
+      rel="stylesheet"
+      href="./Assets/CSS/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css" />
+
+    <!------------------------------WebSite Title ------------------------------------------>
+
+    <title>Fokir - Personal Portfolio Bootstrap Template</title>
+
+    <!-------------------------------Browser logo------------------------------------------->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://images.assetsdelivery.com/compings_v2/arbuzu/arbuzu1607/arbuzu160700035.jpg"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav
+      class="nav navbar navbar-expand-md navbar-dark my-auto px-2 py-0 fixed-top"
+    >
+      <div class="container nav__container">
+        <a class="navbar-brand fw-bold" href="/index.html">Fokir</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-md-auto ms-lg-auto me-lg-0 text-capitalize text-center"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active pe-md-3 pe-lg-5 ps-0"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#testimonial"
+                >Testimonial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-md-3 pe-lg-5 ps-0" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-0" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+      <div class="home__container">
+        <div class="home__bgLayer">
+          <div
+            class="home__caption d-flex flex-column justify-content-center align-items-center h-100"
+          >
+            <h3 class="home__hello">Hello I'm</h3>
+            <h1 class="home__title text-uppercase">Alex Smith</h1>
+            <h4 class="home__desc p-0 m-0"></h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about" class="py-5">
+      <div class="about__container container my-5 py-3">
+        <div class="row g-1">
+          <div class="col-9 col-md-5 mx-auto mb-5 mb-md-0">
+            <div class="img__frame  mx-auto">
+              <div class="img__container position-relative overflow-hidden">
+                <img
+                  src="./Assets/img/profile.jpg"
+                  class="w-100 profile__img"
+                  alt="profile image"
+                />
+                <div class="profileImage__layer">
+                  <div
+                    class="h-100 d-flex justify-content-center align-items-center"
+                  >
+                    <a
+                      href="#"
+                      target="_blank"
+                      style="font-family: FontAwesome"
+                      class="social__icon me-2"
+                    >
+                      <i class="fa-brands fa-facebook-f fa-lg px-2 py-2"></i
+                    ></a>
+                    <a href="#" target="_blank" class="social__icon me-2">
+                      <i class="fa-brands fa-twitter fa-lg px-2 py-2"></i
+                    ></a>
+                    <a href="#" target="_blank" class="social__icon me-2">
+                      <i class="fa-brands fa-google fa-lg px-2 py-2"></i
+                    ></a>
+                    <a href="#" target="_blank" class="social__icon me-2">
+                      <i class="fa-brands fa-github fa-lg px-2 py-2"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9 col-md-7 mx-auto">
+            <h2 class="position-relative">Hello,</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="profile__about" >
+              <ul class=" row row-cols-1 row-cols-2 px-2">
+                 <div class="col mb-1 px-0"><li><span> <b>Name:</b></span> Rdam smith</li></div>
+                 <div class="col mb-1 px-0"><li><span><b>Job Title:</b></span> UI/UX Designer</li></div> 
+                  <div class="col mb-1 px-0"><li><span><b>Age:</b></span> 26 Year</li></div>
+                  <div class="col mb-1 px-0"><li><span><b>Location:</b></span> United States, US</li></div>
+                  <div class="col mb-1 px-0"><li><span><b>Freelance:</b></span> Available</li></div>
+                  <div class="col mb-1 px-0"><li><span><b>E-mail:</b></span> <a href="#">Nadia420@gmail.com</a></li></div>
+                  
+                  
+              </ul>
+              <div class="download__btn d-flex">
+                <button class="form__button my-4 p-3 d-flex justify-content-center align-items-center"><a href="#">Download CV <i class="fa fa-download"></i> </a></button>
+                  <button class="form__button my-4 p-3 d-flex justify-content-center align-items-center"><a href="#contact" class="hire-me">Hire Me <i class="fa fa-paper-plane"></i> </a></button>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="pt-5">
+      <h3 class="subtitle__title mt-2 text-center">Our Services</h3>
+      <div class="subtitle__line"></div>
+      <div class="container services__container mx-auto py-2">
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mt-3 pb-4 text-center"
+        >
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-sharp fa-solid fa-pen-ruler fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">UI/UX DESIGN</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-solid fa-code fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">APP DEVELOPMENT</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-solid fa-chart-line fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">PRODUCT DESIGN</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 py-5 px-1">
+              <i class="fa-solid fa-gears fa-2xl pb-4"></i>
+              <div class="card-body">
+                <h5 class="card-title">UI/UX DESIGN</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h3 class="subtitle__title mt-2 text-center">Our Portfolio</h3>
+      <div class="subtitle__line"></div>
+      <div class="portfolio__container container my-4 pb-5">
+        <ul class="nav justify-content-center mb-5 mt-4" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active text-uppercase"
+              id="home-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true"
+              >All</button
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase" id="graphic-tab" data-bs-toggle="tab" data-bs-target="#graphic" type="button" role="tab" aria-controls="graphic" aria-selected="false">Graphic</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase"id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">Web design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding" type="button" role="tab" aria-controls="branding" aria-selected="false">Branding</button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="all" role="tabpanel" aria-labelledby="all-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/one.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-1 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/2.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-2 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/tres.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-3 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/4.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-4 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/5.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-5 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/6.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-6 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="graphic" role="tabpanel" aria-labelledby="graphic-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/2.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-2 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/tres.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-3 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/4.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-4 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/5.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-5 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/6.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-6 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="design" role="tabpanel" aria-labelledby="design-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/one.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-1 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+         
+          
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/4.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-4 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/5.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-5 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          
+            </div>
+          </div>
+          <div class="tab-pane" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+            <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2 mb-4 pb-2"
+        >
+          
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/2.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-2 image"
+              />
+              <div class="layer">
+                <i class="fa-solid fa-link fa-md"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card__img h-100 px-0 py-0 position-relative">
+              <img
+                src="./Assets/img/6.jpg"
+                class="card-img-top w-100 h-100"
+                alt="work-6 image"
+              />
+              <div class="layer">
+                <i class="fa-regular fa-file-image fa-md"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="counter__container py-5">
+        <div class="portfolio__container container py-2">
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-2">
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                  <i class="fa-solid fa-people-group fa-2xl"></i>
+                </div>
+                <h3 class="counter">200</h3>
+                <h5 class="counter__desc text-capitalize">Team Members</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                  <i class="fa-solid fa-clone fa-2xl"></i>
+                </div>
+                <h3 class="counter">345</h3>
+                <h5 class="counter__desc text-capitalize">Complete Projects</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                  <i class="fa-solid fa-cloud-arrow-down fa-2xl"></i>
+                </div>
+                <h3 class="counter">1800</h3>
+                <h5 class="counter__desc text-capitalize">files downloaded</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 px-1 py-3 text-center">
+                <div class="icon__counter mb-3">
+                  <i class="fa-solid fa-mug-saucer fa-2xl"></i>
+                </div>
+                <h3 class="counter">1200</h3>
+                <h5 class="counter__desc text-capitalize">lines of code</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <h3 class="subtitle__title mt-0 text-center">Client's Feedback</h3>
+      <div class="subtitle__line"></div>
+      <div class="testimon__container container pb-5 mt-3">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide mb-3"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item slide__item active">
+              <img
+                src="./Assets/img/slider-01.jpg"
+                class="d-block w-100 slide__img"
+                alt="background image"
+              />
+              <div class="carousel-caption top-0 d-md-block">
+                <div class="row review__card g-0">
+                  <div class="col-9 col-md-3 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <img
+                        src="./Assets/img/two.jpg"
+                        class="d-block review__img rounded rounded-circle mx-auto my-auto py-4 py-md-0"
+                        alt="reviewer1"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-9 col-md-9 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <div class="card-body text-dark text-start">
+                        <h2 class="text-capitalize mb-2">Alex Ander</h2>
+                        <span class="review__location"
+                          ><i class="fa-solid fa-location-dot"></i> United</span
+                        >
+                        <p class="review__text mx-auto mt-2">
+                          <i>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Exercitationem ducimus ex magni sunt,
+                            architecto vel dolore, laudantium dignissimos
+                            debitis optio! Exercitationem adipisicing elit.</i
+                          >
+                        </p>
+                        <span class="test__rate">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide__item">
+              <img
+                src="./Assets/img/slider-01.jpg"
+                class="d-block w-100 slide__img"
+                alt="background image"
+              />
+              <div class="carousel-caption top-0 d-md-block">
+                <div class="row review__card g-0">
+                  <div class="col-9 col-md-3 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <img
+                        src="./Assets/img/three.jpg"
+                        class="d-block review__img rounded rounded-circle mx-auto my-auto py-4 py-md-0"
+                        alt="reviewer2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-9 col-md-9 card__test mx-auto">
+                    <div class="card h-100 bg-transparent">
+                      <div class="card-body text-dark text-start">
+                        <h2 class="text-capitalize mb-2">Alex Ander</h2>
+                        <span class="review__location"
+                          ><i class="fa-solid fa-location-dot"></i> United</span
+                        >
+                        <p class="review__text mx-auto mt-2">
+                          <i>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Exercitationem ducimus ex magni sunt,
+                            architecto vel dolore, laudantium dignissimos
+                            debitis optio! Exercitationem adipisicing elit.</i
+                          >
+                        </p>
+                        <span class="test__rate">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="pt-5">
+      <h3 class="subtitle__title mt-2 text-center">Our Blog</h3>
+      <div class="subtitle__line"></div>
+
+      <div class="blog__container container mx-auto py-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 pb-5">
+          <div class="col card__blog">
+            <div class="card h-100">
+              <img
+                src="./Assets/img/1.jpg"
+                class="card-img-top"
+                alt="post-1 image"
+              />
+              <div class="card-body">
+                <p class="post__date">23 November, 2015</p>
+                <a href="/" class="card-title mt-3">Web Design Blog Post</a>
+                <p class="card-text my-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a href="/" class="read__more text-uppercase"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col card__blog">
+            <div class="card h-100">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item card-img-top"
+                  width="100%"
+                  src="https://www.youtube.com/embed/uVju5--RqtY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body">
+                <p class="post__date">20 April, 2018</p>
+                <a href="/" class="card-title mt-3">Development Blog Post</a>
+                <p class="card-text my-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a href="/" class="read__more text-uppercase"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col card__blog">
+            <div class="card h-100">
+              <img
+                src="./Assets/img/3.jpg"
+                class="card-img-top"
+                alt="post-3 image"
+              />
+              <div class="card-body">
+                <p class="post__date">17 May, 2017</p>
+                <a href="/" class="card-title mt-3">Full Width Blog Post</a>
+                <p class="card-text my-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a href="/" class="read__more text-uppercase"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h3 class="subtitle__title mt-2 text-center">Contact Us</h3>
+      <div class="subtitle__line"></div>
+      <div class="container bg-white w-100 mt-4 py-2 px-2">
+        <div class="contact h-100">
+          <div class="contact__container">
+            <form action="" method="GET" class="contact__form mx-auto">
+              <div class="row">
+                <div class="col-12 col-md-6 mx-auto px-md-3">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form__input mb-3 my-3"
+                    required="required"
+                    placeholder="Name"
+                    data-errormessage-value-missing="FirstName is required"
+                  />
+                </div>
+                <div class="col-12 col-md-6 mx-auto px-md-3">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form__input mb-3 my-3"
+                    required="required"
+                    placeholder="Email"
+                    data-errormessage-value-missing="Valid email is required"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-12 mx-auto px-md-3">
+                  <input
+                    name="subject"
+                    type="text"
+                    class="form__input mb-3 my-3"
+                    required="required"
+                    placeholder="Subject"
+                    data-errormessage-value-missing="Subject is required"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-md-12 mx-auto px-md-3">
+                  <textarea
+                    name="text_msg"
+                    class="form__input my-3"
+                    rows="5"
+                    required="required"
+                    placeholder="Message for me"
+                    data-errormessage-value-missing="Please, Leave us a message"
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                class="form__button my-4 p-3 d-flex justify-content-center align-items-center"
+              >
+                <a href="mailto:abc@example.com" class="text-uppercase"
+                  >Send Message</a
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__container text-center">
+        <div class="py-3">
+          <a
+            href="#"
+            target="_blank"
+            style="font-family: FontAwesome"
+            class="social__icon me-2"
+          >
+            <i class="fa-brands fa-facebook-f fa-lg px-2 py-2"></i
+          ></a>
+          <a href="#" target="_blank" class="social__icon me-2">
+            <i class="fa-brands fa-twitter fa-lg px-2 py-2"></i
+          ></a>
+          <a href="#" target="_blank" class="social__icon me-2">
+            <i class="fa-brands fa-google fa-lg px-2 py-2"></i
+          ></a>
+          <a href="#" target="_blank" class="social__icon me-2">
+            <i class="fa-brands fa-github fa-lg px-2 py-2"></i
+          ></a>
+        </div>
+        <p class="footer__copyright">
+          Copy Right 2018 © By <span><a href="/">Theme-fair</a></span> All
+          Rights Reserved
+        </p>
+      </div>
+    </footer>
+    
+    <!-------------------------- JS text.js extension script ----------------------->
+    <script>
+      var typing = new Typed(".home__desc", {
+        strings: [
+          "Professional Web Designer &nbsp;",
+          "Professional Web Developer &nbsp;",
+        ],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+      });
+    </script>
+
+    <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
