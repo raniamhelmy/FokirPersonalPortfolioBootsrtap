@@ -618,7 +618,7 @@ a.social__icon:hover{
   }
   
   .profile__img{
-    height: 500px;
+    height: 450px;
     width: 100%;
   }
 
@@ -646,6 +646,10 @@ a.social__icon:hover{
 
   .home__title {
     font-size: calc(2.8125rem + 3vw);
+  }
+
+  .profile__img{
+    height: 350px;
   }
 
   .portfolio__container button.nav-link{
