@@ -13,12 +13,10 @@
     --mainText__color:#555;
     --mainTitle__color:#333;
     --secondText__color:#ff305b;
-    --button__color:#20c997;
     --secondBG__color:#f1f1f1;
     --black__color:#000;
     --location__color:#777;
     --rate__color:gold;
-    --hoverButton__color:#1baa80;
     --titleBG__color:rgba(222, 227, 228, 0.5);
     --number__color:#6c757d;
     --secondButton__color:#6c6c6c;
@@ -87,9 +85,8 @@ transition: color 500ms ease;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
-    /* margin-top: 3.75rem; */
     font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
+    color: var(--white__color);
   }
   
   .home__bgLayer {
@@ -109,7 +106,7 @@ transition: color 500ms ease;
   
   .home__desc {
     font-size: 26px;
-    border-right: .125rem solid #fff;
+    border-right: .125rem solid var(--white__color);
     width: fit-content;
     pointer-events: none;
   }
@@ -160,10 +157,6 @@ transition: color 500ms ease;
   background-color: var(--secondText__color);
 }
 
-/* .about__container{
-  border:1px solid red;
-} */
-
 .img__frame{
   /* box-shadow: -22px -23px 0px -11px rgba(0,0,0,0.75); */
   /* position: relative; */
@@ -208,6 +201,7 @@ transition: color 500ms ease;
   padding-left: 10px;
   
 }
+
 .about__container h2::before{
   content: "";
   position: absolute;
@@ -242,6 +236,7 @@ transition: color 500ms ease;
   color: inherit;
   font-family: inherit;
 }
+
 .download__btn{
   column-gap: 1.5rem;
 }
@@ -249,10 +244,6 @@ transition: color 500ms ease;
 
 
 /*******************************************Services Section*****************************************/
-
-/* .services__container{
-  border:1px solid red;
-} */
 
 .services__container .card{
   background-color: var(--secondBG__color);
@@ -263,14 +254,11 @@ transition: color 500ms ease;
 .services__container .card i{
   color: var(--secondText__color);
   transition: all 500ms ease-in-out;
-  
-
 }
 
 .services__container .card:hover  {
 background-color: var(--white__color);
 box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.5);
-
 }
 
 .services__container .card:hover i{
@@ -282,7 +270,6 @@ box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.5);
   margin-bottom: .9375rem;
   font-size: 1.4rem;
   font-weight: 700;
-
 }
 
 .services__container .card-body .card-text{
@@ -295,11 +282,6 @@ box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.5);
 
 
 /*******************************************Portfolio Section*****************************************/
-
-
-/* .portfolio__container{
-  border:1px solid red;
-} */
 
 .portfolio__container button.nav-link{
 color:var(--mainTitle__color);
@@ -499,7 +481,6 @@ iframe, .card-img-top{
 
 .contact__form{
   max-width:calc(75% - 30px);
-  /* border:.0625rem solid blue; */
 }
 
 .form__input {
@@ -515,7 +496,6 @@ iframe, .card-img-top{
   outline: none; /*!important; */
   border: .0625rem solid var(--secondText__color);
   box-shadow: 0 0 .625rem #cfb8bc;
-  /* box-shadow: 0 0 .625rem #719ece; */
 }
 
 ::placeholder {
@@ -537,7 +517,6 @@ textarea{
   background-color:var(--secondText__color);
   border-color: var(--secondText__color);
   border-radius: 4px;
-  /* padding: 0 1.25rem; */
   height: 40px;
   line-height: 38px;
   transition: 0.3s ease-in-out;
@@ -562,8 +541,7 @@ textarea{
   padding-block: 35px;
   background-color: var(--mainTitle__color);
   color:var(--white__color);
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: 'Roboto', sans-serif; 
 }
 
 .footer__copyright span a{
@@ -598,10 +576,12 @@ a.social__icon:hover{
     border-radius: none;
     width:90%;
   }
+
   .img__container{
     border-radius: .25rem;
     transform:translate(0%, 0%);
   }
+
   .profile__img{
     height: 400px;
     object-fit: cover;
@@ -612,9 +592,7 @@ a.social__icon:hover{
 
   .nav__container{
     max-width: 500px;
-    /* border:.0625rem solid red; */
-    background-color: var(--mainTitle__color);
-    
+    background-color: var(--mainTitle__color);  
   }
 
   .services__container, .portfolio__container{
@@ -638,6 +616,7 @@ a.social__icon:hover{
   .img__frame{
     width:100%;
   }
+  
   .profile__img{
     height: 500px;
     width: 100%;
