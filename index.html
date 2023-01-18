@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <!---------------------------Fonts used in this App------------------------------------------------------>
@@ -46,9 +47,9 @@
     />
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scrollSpy">
     <!-- navbar -->
-    <nav
+    <nav id="navbar-scrollSpy"
       class="nav navbar navbar-expand-md navbar-dark my-auto px-2 py-0 fixed-top"
     >
       <div class="container nav__container">
@@ -860,6 +861,8 @@
       });
     </script>
 
+    <!----------------------------- Bootstrap script ------------------------------->
+    
     <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
   </body>
 </html>
