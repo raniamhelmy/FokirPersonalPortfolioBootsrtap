@@ -355,12 +355,20 @@ background-color: transparent;
   background-color: var(--white__color);
 }
 
-.carousel-indicators [data-bs-target] {
-  background-color:var(--secondText__color);
-  border-top: none;
-  border-bottom: none;
-  border-radius: .3125rem;
-  height:.375rem;
+.carousel-indicators [data-bs-target]{
+all:unset;
+width:10px;
+height: 10px;
+border-radius: 50%;
+margin-left: 3px;
+border:1px solid var(--secondText__color);
+cursor: pointer;
+}
+
+.carousel-indicators .active{
+  background-color: var(--secondText__color);
+  border-radius: 15px;
+  width:30px;
 }
 
 .testimon__container .carousel-caption{
